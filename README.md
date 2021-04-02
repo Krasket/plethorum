@@ -9,8 +9,6 @@
 - A hardmode ore/bar/toolset
 - An endgame deathray
 - A piece of lore
-- Some recipe groups
-- A little recipes for uncraftable vanilla items
 
 ---
 
