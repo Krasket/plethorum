@@ -4,7 +4,7 @@
 
 ---
 
-###### As of version v0.1.3, this mod adds:
+##### As of version v0.1.3, this mod adds:
 
 - A hardmode ore/bar/toolset
 - An endgame deathray
@@ -14,4 +14,4 @@
 
 ---
 
-###### Much more is to come, so remember to update this mod frequently!
+##### Much more is to come, so remember to update this mod frequently!
