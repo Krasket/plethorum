@@ -17,8 +17,8 @@ namespace Plethorum.Items.Tools
 			item.melee = true;
 			item.width = 32;
 			item.height = 32;
-			item.useTime = 15;
-			item.useAnimation = 15;
+			item.useTime = 20;
+			item.useAnimation = 20;
 			item.hammer = 210;
 			item.useStyle = ItemUseStyleID.SwingThrow;
 			item.knockBack = 20;

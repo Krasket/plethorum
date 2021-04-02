@@ -24,7 +24,7 @@ namespace Plethorum.Items
 			item.rare = ItemRarityID.Expert;
 			item.damage = 10000;
 			item.shoot = ModContent.ProjectileType<CosmicLightShardHoldout>();
-			item.shootSpeed = 10f;
+			item.shootSpeed = 5f;
 		}
 		public override void AddRecipes() {
 			ModRecipe recipe = new ModRecipe(mod);
