@@ -28,7 +28,7 @@ namespace Plethorum.Items
 			item.rare = ItemRarityID.Blue;
 			item.UseSound = SoundID.Item23;
 			item.autoReuse = true;
-			// item.shoot = ModContent.ProjectileType<Projectiles.MoltenDrill>();
+			item.shoot = ModContent.ProjectileType<Projectiles.OxiumDrill>();
 			item.shootSpeed = 10f;
 		}
 	}

@@ -15,8 +15,6 @@ namespace Plethorum.Items
 
 		public override void SetDefaults()
 		{
-			// Start by using CloneDefaults to clone all the basic item properties from the vanilla Last Prism.
-			// For example, this copies sprite size, use style, sell price, and the item being a magic weapon.
 			item.CloneDefaults(ItemID.LastPrism);
 			item.value = 300000;
 			item.magic = true;

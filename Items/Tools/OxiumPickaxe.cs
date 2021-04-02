@@ -38,7 +38,7 @@ namespace Plethorum.Items
 		}
 
 		public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit) {
-			// 60 frames = 1 second
+			
 			target.AddBuff(BuffID.OnFire, 120);
 		}
 	}

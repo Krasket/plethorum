@@ -1,7 +1,7 @@
 displayName = Plethorum
 author = Beep Boop Studio
 homepage = https://discord.gg/azkt9twEkU
-version = 0.1.3
+version = 0.1.4
 hideCode = false
 hideResources = false
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*

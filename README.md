@@ -1,10 +1,10 @@
-## Plethorum v0.1.3
+## Plethorum v0.1.4
 
 #### Plethorum is a large content mod, made with the intention of making yor making your modded experience better, while still keeping other content mods working as they should.
 
 ---
 
-##### As of version v0.1.3, this mod adds:
+##### As of version v0.1.4, this mod adds:
 
 - A hardmode ore/bar/toolset
 - An endgame deathray
