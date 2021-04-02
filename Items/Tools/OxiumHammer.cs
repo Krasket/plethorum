@@ -4,7 +4,7 @@ using Terraria.ID;
 using Plethorum.Items.Bars;
 using Terraria.ModLoader;
 
-namespace Plethorum.Items
+namespace Plethorum.Items.Tools
 {
 	public class OxiumHammer : ModItem
 	{

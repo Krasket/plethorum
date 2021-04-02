@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 using Terraria.DataStructures;
 using Plethorum.Items.Bars;
 
-namespace Plethorum.Items.Weapons
+namespace Plethorum.Items.Weapons.Melee
 {
 	public class OxiumBlade : ModItem
 	{

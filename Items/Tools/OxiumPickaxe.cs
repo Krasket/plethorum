@@ -4,14 +4,13 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Plethorum.Items
+namespace Plethorum.Items.Tools
 {
 	public class OxiumPickaxe : ModItem
 	{
 		public override void SetStaticDefaults() {
 			Tooltip.SetDefault("Said to have an edge of incineration steel.");
 		}
-
 		public override void SetDefaults() {
 			item.damage = 27;
 			item.melee = true;

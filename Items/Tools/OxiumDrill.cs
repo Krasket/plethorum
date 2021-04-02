@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Plethorum.Items
+namespace Plethorum.Items.Tools
 {
 	public class OxiumDrill : ModItem
 	{
