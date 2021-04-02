@@ -10,7 +10,6 @@ namespace Plethorum.Items.Weapons.Melee
 	{
 		public override void SetStaticDefaults() {
 			Tooltip.SetDefault("A sword of super-hot fury.\nInflicts the 'Burning' debuff.");
-			Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(32, 32));
 		}
 
 		public override void SetDefaults() {
@@ -18,8 +17,8 @@ namespace Plethorum.Items.Weapons.Melee
 			item.melee = true;
 			item.width = 32;
 			item.height = 32;
-			item.useTime = 15;
-			item.useAnimation = 15;
+			item.useTime = 20;
+			item.useAnimation = 20;
 			item.knockBack = 4;
 			item.value = Item.buyPrice(gold: 10);
 			item.rare = ItemRarityID.Blue;
