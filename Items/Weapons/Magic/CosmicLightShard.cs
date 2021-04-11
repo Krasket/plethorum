@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Plethorum.Items
+namespace Plethorum.Items.Weapons.Magic
 {
 	public class CosmicLightShard : ModItem
 	{

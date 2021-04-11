@@ -1,4 +1,4 @@
-using Plethorum.Items;
+using Plethorum.Items.Weapons.Magic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
