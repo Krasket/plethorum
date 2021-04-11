@@ -16,13 +16,13 @@ namespace Plethorum.Items
 		public override void SetDefaults()
 		{
 			item.CloneDefaults(ItemID.LastPrism);
-			item.value = 300000;
+			item.value = 3000000;
 			item.magic = true;
 			item.width = 24;
 			item.height = 32;
-			item.mana = 1;
+			item.mana = 0;
 			item.rare = ItemRarityID.Expert;
-			item.damage = 10000;
+			item.damage = 1000000;
 			item.shoot = ModContent.ProjectileType<CosmicLightShardHoldout>();
 			item.shootSpeed = 5f;
 		}
