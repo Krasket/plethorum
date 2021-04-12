@@ -15,23 +15,32 @@ namespace Plethorum.Items.Weapons.Magic
 
 		public override void SetDefaults()
 		{
+            Mod calamityMod = ModLoader.GetMod("CalamityMod");
 			item.CloneDefaults(ItemID.LastPrism);
-			item.value = 3000000;
+			item.value = 300000;
 			item.magic = true;
 			item.width = 24;
 			item.height = 32;
-			item.mana = 0;
+			item.mana = 2;
 			item.rare = ItemRarityID.Expert;
-			item.damage = 1000000;
+			if (calamityMod != null)
+			{
+				item.damage = 15000;
+			}
+			else
+			{
+				item.damage = 1000;
+			}
 			item.shoot = ModContent.ProjectileType<CosmicLightShardHoldout>();
-			item.shootSpeed = 5f;
+			item.shootSpeed = 7f;
 		}
 		public override void AddRecipes() {
 			ModRecipe recipe = new ModRecipe(mod);
             Mod calamityMod = ModLoader.GetMod("CalamityMod");
             if (calamityMod != null)
             {
-				recipe.AddIngredient(calamityMod.ItemType("AuricTeslaBar"), 5);
+				recipe.AddIngredient(calamityMod.ItemType("ShadowspecBar"), 15);
+				recipe.AddIngredient(calamityMod.ItemType("YharimsCrystal"), 1);
                 recipe.AddIngredient(calamityMod.ItemType("GalacticaSingularity"), 5);
                 recipe.AddTile(calamityMod.TileType("DraedonsForge"));
             }
@@ -41,6 +50,8 @@ namespace Plethorum.Items.Weapons.Magic
                 recipe.AddIngredient(ItemID.FragmentSolar, 5);
                 recipe.AddIngredient(ItemID.FragmentVortex, 5);
                 recipe.AddIngredient(ItemID.FragmentStardust, 5);
+                recipe.AddIngredient(ItemID.LunarBar, 20);
+                recipe.AddIngredient(ItemID.LastPrism, 1);
                 recipe.AddTile(TileID.LunarCraftingStation);
             }
 			recipe.SetResult(this);
