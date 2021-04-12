@@ -13,18 +13,18 @@ namespace Plethorum.Items.Weapons.Melee
 		}
 
 		public override void SetDefaults() {
-			item.damage = 89;
+			item.damage = 85;
 			item.melee = true;
 			item.width = 32;
 			item.height = 32;
 			item.useTime = 20;
 			item.useAnimation = 20;
-			item.knockBack = 4;
+			item.knockBack = 3;
 			item.value = Item.buyPrice(gold: 10);
 			item.rare = ItemRarityID.Blue;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
-			item.crit = 50;
+			item.crit = 25;
 			
 			//Use useStyle 1 for normal swinging or for throwing
 			//use useStyle 2 for an item that drinks such as a potion,
