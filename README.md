@@ -1,6 +1,6 @@
 # Plethorum
 
-A large content mod for tModLoader, allowing a better play experience while smoothly integrating with other mods
+A (becoming) large content mod for tModLoader, allowing a better play experience while smoothly integrating with specified, other mods
 
 ## Summary
 
@@ -15,7 +15,7 @@ A large content mod for tModLoader, allowing a better play experience while smoo
 
 ## Content
 
-Below is a list of the currently implemented features (as of 0.1.6):
+Below is a list of the currently implemented features (as of 0.1.9):
 
 - A hardmode ore/bar/toolset
 - An endgame deathray
