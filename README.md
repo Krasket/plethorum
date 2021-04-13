@@ -56,6 +56,8 @@ repository](https://github.com/beep-boop-studio/plethorum/tags).
     [devraza](https://github.com/devraza)
   - **Abdulmujeeb Raji** - *Did a lot of coding* -
     [AbdulAndProgramming](https://github.com/AbdulAndProgramming)
+  - **Nightmare** - *idk i was just here ig* -
+    [Nightmare](https://github.com/Nightmare-Coding)
 
 See also the list of
 [contributors](https://github.com/beep-boop-studio/plethorum/contributors)
