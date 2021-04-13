@@ -20,14 +20,14 @@ namespace Plethorum.Projectiles
 		}
 
 		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit) {
-			if (Main.rand.NextBool(10)) {
-				target.AddBuff(BuffID.Burning, 180, false);
+			if (Main.rand.NextBool(5)) {
+				target.AddBuff(BuffID.Burning, 60, false);
 			}
 		}
 
 		public override void OnHitPvp(Player target, int damage, bool crit) {
-			if (Main.rand.NextBool(10)) {
-				target.AddBuff(BuffID.Burning, 180, false);
+			if (Main.rand.NextBool(5)) {
+				target.AddBuff(BuffID.Burning, 60, false);
 			}
 		}
 	}

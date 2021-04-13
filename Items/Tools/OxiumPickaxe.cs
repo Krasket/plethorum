@@ -37,8 +37,9 @@ namespace Plethorum.Items.Tools
 		}
 
 		public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit) {
-			
-			target.AddBuff(BuffID.OnFire, 120);
+			if (Main.rand.NextBool(5)) {
+				target.AddBuff(BuffID.Burning, 60, false);
+			}
 		}
 	}
 }

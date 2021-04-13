@@ -15,7 +15,7 @@ namespace Plethorum.Items.Tools
 			item.melee = true;
 			item.width = 50;
 			item.height = 18;
-			item.useTime = 2;
+			item.useTime = 3;
 			item.useAnimation = 15;
 			item.channel = true;
 			item.noUseGraphic = true;
