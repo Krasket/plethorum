@@ -1,4 +1,4 @@
-Copyright (c) 2022 Beep Boop Studio
+Copyright (c) 2022 Devraza, NightmaresStuff
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
